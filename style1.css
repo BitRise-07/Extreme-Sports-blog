@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: 10px;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+.text-style{
+    color: #00796b;
+    margin-bottom: 30px;
+}
+a{
+    display: inline;
+}
+/* Header section */
+.sub-header{
+    width: 100%;
+    height: 8px;
+    background-color: #00796b;
+}
+
+.header-container {
+    background-color: #708090; 
+    color: #fff; 
+    padding: 17px 17px;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.custom-header {
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: "Chokokutai", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav-link ul {
+    display: flex;
+    justify-content: flex-end; 
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav-link li {
+    margin-left: 20px;
+}
+
+.nav-link a {
+    color: #fff; 
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-link a:hover {
+    text-decoration: underline;
+    color: #133752;
+}
+
+.image-container {
+    position: relative;
+    /*text-align: center;*/
+    color: white;
+}
+
+.image-container img {
+    width: 100%;
+    height: 730px;
+}
+.explore a{
+    position: absolute;
+    background-color: #5f8e89;
+    border-radius: 6px;
+    font-weight: 700;
+    padding: 12px 24px;
+    box-shadow: 0 0 2px black;
+    top: 80%;
+    left: 45%;
+    padding: 30px;
+}
+.explore a:hover{
+    background-color: #244a46;
+    cursor: pointer;
+}
+
+.explore a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.overlay-text {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    right: 20%;
+    /*transform: translate(-50%, -50%);*/
+    font-size: 24px;
+    font-weight: bold;
+   
+}
+
+/* definition */
+
+.definition-section h2{
+    color: #00796b;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.section-img{
+    height: 500px;
+}
+
+.section-img img{
+    width: 300px;
+    height: 500px;
+    padding: 50px 0;
+    margin-top: 50px;
+    overflow: hidden;
+    
+}
+
+.history-section h2{
+    color: #00796b;
+    margin-bottom: 30px;
+    margin-top: 50px;
+
+}
+
+/* example section */
+
+.example-section{
+    margin-top: 80px;
+}
+.example-area{
+    justify-content: space-between;
+    margin-block: 20px;
+    
+}
+.example-card{
+    width: 30%;
+    position: relative;
+    background-color: black;
+   background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url('./images1/img3.webp');
+   background-size: cover;
+    min-height: 300px;
+    border-radius: 20px;
+}
+.example-card1{
+    width: 30%;
+    position: relative;
+    background-color: black;
+   background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url('./images1/img4.webp');
+   background-size: cover;
+    min-height: 300px;
+    border-radius: 20px;
+}
+.example-card2{
+    width: 30%;
+    position: relative;
+    background-color: black;
+   background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url('./images1/img5.webp');
+   background-size: cover;
+    min-height: 300px;
+    border-radius: 20px;
+}
+
+.card-text{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    left: 20px;
+    color: #fff;
+}
+
+/* footer */
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: #00796b;
+    margin-top: 100px;
+}
+
+.footer-section{
+    justify-content: center;
+    gap: 200px;
+    padding-top: 30px;
+}
+
+.ex-section{
+    flex-direction: column;
+    gap: 20px;
+}
+.ex-section a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+
+
+.ex-section a:hover {
+    text-decoration: underline;
+    color: #133752;
+}
+
+/* Sports section */
+.container2{
+    max-width: 800px;
+    margin-inline: auto;
+    padding-inline: 10px;
+}
+
+.sports-section h2{
+    margin-top: 80px;
+    color: #00796b;
+    margin-left: 330px;
+}
+.sports-h3{
+    margin-top: 50px;
+}
+.sports-image{
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 5%;
+    box-shadow: 0 0 2px black;
+    margin-bottom: 20px;
+    
+}
+.chalanges{
+    margin: 20px 0 10px 0;
+    font-weight: bold;
+}
+/* side bar */
+
+.side-bar{
+    flex-direction: column;
+    row-gap: 30px;
+    display: flex;
+    position: fixed;
+    top: 250px;
+    left: 30px;
+}
+
+.side-bar a {
+    color: #8c7b7b; 
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+.side-bar a:hover {
+    text-decoration: underline;
+    color: #133752;
+}
+
+/* insights section */
+
+.insights-list h3{
+    margin: 30px 0;
+    color: #00796b;
+    font-size: 2rem;
+}
+.insight-link{
+    flex-direction: column;
+    gap: 20px;
+}
+.insight-link a {
+    color: #8c7b7b; 
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.insight-link a:hover{
+    color: #133752;
+
+}
+
+.h4-insights{
+    font-size: 1.3rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.p-margin{
+    margin-left: 20px;
+}
+
+/* guide and tips page */
+.container-3{
+    max-width: 800px;
+}
+.guides-section{
+    font-size: 2rem;
+    margin-top: 70px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.guides-text h3{
+    color: rgb(23, 22, 22);
+    text-align: center;
+}
+.line{
+    height: 2px;
+    width: 500px;
+    margin-top: 20px;
+    background-color: aqua;
+}
+.gear-heading{
+    margin-top: 200px;
+    flex-direction: column;
+
+}
+.gear-heading h3{
+    font-size: 1.8rem;
+}
+.gear-image{
+    margin-top: 40px;
+    gap: 40px;
+}
+.gear-image img{
+    width: 400px;
+    height: auto;
+    box-shadow: 0 0 7px black;
+}
+.gear-image p{
+    align-content: center;
+}
+.line1{
+    height: 2px;
+    width: 300px;
+    margin-top: 20px;
+    background-color: aqua;
+}
+
+/* About section */
+.about-section{
+    flex-direction: column;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.line2{
+    height: 5px;
+    width: 100px;
+    margin-top: 10px;
+    background-color: aqua;
+}
+.about-section h3{
+    font-size: 2rem;
+}
+.text-sec{
+    margin-top: 30px;
+
+}
+.text-sec p{
+    font-size: 1.3rem;
+}
+
